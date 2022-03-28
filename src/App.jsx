@@ -1,20 +1,19 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-
-import LeftMenu from './components/LeftMenu'
 import MainContainer from './components/MainContainer'
-import RightMenu from './components/RightMenu'
+import WebsiteLayout from './layouts/WebsiteLayout'
+
 
 function App() {
 
   return (
     <div className="App">
-      <div></div>
-
-      <LeftMenu />
-      <RightMenu />
-      <MainContainer />
-
-      <div className='background'></div>
+      <Routes>
+        <Route path='/' element={<WebsiteLayout/>}>
+          <Route index element={<MainContainer/>}/>
+        </Route>
+      </Routes>
+      
     </div>
   )
 }
