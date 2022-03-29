@@ -10,8 +10,8 @@ const WebsiteLayout = () => {
   return (
     <div className='WebsiteLayout'>
         <LeftMenu />
-        <RightMenu />
         <Outlet/>
+        <RightMenu />
 
         <div className='background'></div>
     </div>

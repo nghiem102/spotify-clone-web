@@ -1,8 +1,9 @@
 import React from 'react'
+import '../styles/MainContainer.css'
 
 const MainContainer = () => {
   return (
-    <div>MainContainer</div>
+    <div className='MainContainer'>MainContainer</div>
   )
 }
 

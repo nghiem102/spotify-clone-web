@@ -21,21 +21,16 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#">
-            <i className="bx bx-search"></i>Search
-          </a>
-        </li>
-        <li>
-          <a href="#">
             <i className="bx bx-library"></i>Your Library
           </a>
         </li>
       </ul>
       <ul className="favourite-list">
         <li>
-          <a href="#"><i class='bx bx-plus-circle'></i>Your Playlist</a>
+          <a href="#"><i className='bx bx-plus-circle'></i>Your Playlist</a>
         </li>
         <li>
-          <a href="#"><i class='bx bx-heart-circle' ></i>Like Songs</a>
+          <a href="#"><i className='bx bx-heart-circle' ></i>Like Songs</a>
         </li>
       </ul>
     </div>
